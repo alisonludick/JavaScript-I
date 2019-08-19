@@ -4,13 +4,6 @@
 // HR needs some information on the new interns put into a database.  Given an id, email, first name, and gender. Create an object for each person in the company list:
 
 // 1, mmelloy0@psu.edu, Mitzi, F
-var intern = {
-    id: 1,
-    email: 'mmelloy0@psu.edu',
-    firstname: 'Mitzi',
-    gender: 'F',
-}
-
 // 2, kdiben1@tinypic.com, Kennan, M
 // 3, kmummery2@wikimedia.org, Keven, M
 // 4, gmartinson3@illinois.edu, Gannie, M
@@ -25,6 +18,40 @@ const example = {
 }
 
 // Write your intern objects here:
+let internMitzi = {
+    id: 1,
+    email: 'mmelloy0@psu.edu',
+    firstname: 'Mitzi',
+    gender: 'F',
+}
+
+let internKennan = {
+    id: 2,
+    email: 'kdiben1@tinypic.com',
+    firstname: 'Kennan',
+    gender: 'M',
+}
+
+let internKeven = {
+    id: 3,
+    email: 'kmummery2@wikimedia.org',
+    firstname: 'Keven',
+    gender: 'M',
+}
+
+let internGannie = {
+    id: 4,
+    email: 'gmartinson3@illinois.edu',
+    firstname: 'Gannie',
+    gender: 'M',
+}
+
+let internAntonietta = {
+    id: 5,
+    email: 'adaine5@samsung.com',
+    firstname: 'Antonietta',
+    gender: 'M',
+}
 
 
 // ==== Challenge 2: Reading Object Data ==== 
