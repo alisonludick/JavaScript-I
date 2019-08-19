@@ -96,7 +96,19 @@ console.log(`The make and model of the last car is a ${inventory[inventory.lengt
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
 let carModels = [];
 let carModelsSorted = [];
-console.log();
+
+inventory.sort(function(a, b) {
+    var carModelA = a.car_model.toLowerCase(),
+        carModelB = b.car_model.toLowerCase()
+    if (carModelA < carModelB) //sort string ascending
+        return -1
+    if (carModelA > carModelB)
+        return 1
+    return 0 //default return value (no sorting)
+})
+console.log(inventory);
+
+
 
 // ==== Challenge 4 ====
 // The accounting team needs all the years from every car on the lot. Create a new array from the dealer data containing only the car years and log the result in the console.
