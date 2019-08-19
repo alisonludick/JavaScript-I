@@ -50,7 +50,7 @@ let internAntonietta = {
     id: 5,
     email: 'adaine5@samsung.com',
     firstname: 'Antonietta',
-    gender: 'M',
+    gender: 'F',
 }
 
 
@@ -58,14 +58,20 @@ let internAntonietta = {
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+console.log(internMitzi.firstname);
 
 // Kennan's ID
+console.log(internKennan.id);
 
 // Keven's email
+console.log(internKeven.email);
 
 // Gannie's name
+console.log(internGannie.firstname);
 
 // Antonietta's Gender
+console.log(internAntonietta.gender);
+
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
