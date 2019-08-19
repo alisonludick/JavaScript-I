@@ -108,6 +108,23 @@ inventory.sort(function(a, b) {
 })
 console.log(inventory);
 
+// as an extra, here is an alphabetical list according to car make:
+inventory.sort(function(a, b) {
+    var carMakeA = a.car_make.toLowerCase(),
+        carMakeB = b.car_make.toLowerCase()
+    if (carMakeA < carMakeB) //sort string ascending
+        return -1
+    if (carMakeA > carMakeB)
+        return 1
+    return 0 //default return value (no sorting)
+})
+console.log(inventory);
+
+// another extra, sort cars by year, from oldest to newest: 
+inventory.sort((a, b) => a.car_year - b.car_year);
+console.log(inventory);
+
+
 
 
 // ==== Challenge 4 ====
