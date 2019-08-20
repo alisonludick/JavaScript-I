@@ -78,6 +78,7 @@ let inventory = [
 console.log(`Car 33 is a *car year goes here* *car make goes here* *car model goes here*`);
 
 for (let i = 0; i < inventory.length; i++) {
+    // if id = 33, 
     console.log(`Car ${inventory[32].id} is a ${inventory[32].car_make} ${inventory[32].car_model} ${inventory[32].car_year}.`);
 }
 
